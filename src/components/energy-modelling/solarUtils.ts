@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 // @ts-ignore: Large dynamic JSON, type as any for now
-const madridProfiles: any = require('@/resources/solarProfiles/Madrid_Solar_Profiles.json');
+const madridProfiles: any = require('../../resources/solarProfiles/Madrid_Solar_Profiles.json');
 import { supabase } from '@/lib/supabase/client';
 
 // Map cardinal orientation to azimuth degrees
